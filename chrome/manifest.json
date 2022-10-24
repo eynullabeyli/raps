@@ -1,10 +1,19 @@
 {
     "name": "Raps Extension",
+    "description": "",
+    "author": "Yusif Eynullabayli",
     "version": "1.0",
     "manifest_version": 3,
+    "permissions": [
+        "storage",
+        "tabs"
+    ],
+    "host_permissions": ["https://*.eynullabeyli.com/*"],
     "background": {
       "service_worker": "app.js"
     },
-    "action": {}
+    "action": {
+        "default_popup": "run.html"
+    }
   }
   
