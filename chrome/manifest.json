@@ -13,7 +13,13 @@
       "service_worker": "app.js"
     },
     "action": {
-        "default_popup": "run.html"
+        "default_popup": "run.html",
+        "default_title": "Raps Extension",
+        "default_icon": {
+            "16": "assets/icons/ext-icon.png",
+            "24": "assets/icons/ext-icon.png",
+            "32": "assets/icons/ext-icon.png"
+        }
     }
   }
   
