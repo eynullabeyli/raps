@@ -16,9 +16,9 @@
         "default_popup": "run.html",
         "default_title": "Raps Extension",
         "default_icon": {
-            "16": "assets/icons/ext-icon_16.png",
-            "19": "assets/icons/ext-icon_19.png",
-            "38": "assets/icons/ext-icon_38.png"
+            "16": "/assets/icons/ext-icon_16.png",
+            "19": "/assets/icons/ext-icon_19.png",
+            "38": "/assets/icons/ext-icon_38.png"
         }
     }
   }
